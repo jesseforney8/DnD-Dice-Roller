@@ -1,0 +1,41 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: center;
+  }
+
+  img{
+    max-width: 100%;
+    max-height: 100%;
+    }
+
+  #add_input_div {
+
+    display: none;
+    
+  }
+
+  #remove_button {
+
+    display: block;
+  }
+
+  #logo {
+    display: block;
+    max-width: 150%;
+    max-height: 150%;
+  }
+  
+  h1{
+
+    text-align: center;
+
+  }
+  
+#btngrp {
+
+  border: 3px solid black;
+
+}

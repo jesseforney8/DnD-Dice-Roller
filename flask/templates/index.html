@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title%} DnD Dice Roller {% endblock %}
+
+{%block body %}
+<div class="center" id="red_dice"></div>
+<div class="center">
+    <div class="btn-group" role="group" id="btngrp" aria-label="...">
+        <button type="button" id="roll_button" class="btn btn-default" onclick="rollme()">Roll</button>
+        <button type="button" class="btn btn-default" id="add_button" onclick="add_dice_button()">Add</button>
+        <button type="button" class="btn btn-default" id="remove_button" onclick="remove_dice()">Remove</button>
+        
+    </div>
+
+    <div id="add_input_div">
+        <input type="text" class="form-control" id="side_text" placeholder="Enter Sides of New Dice.">
+        <button type="button" id="confirm_button" class="btn btn-default" onclick="confirm()">Confirm</button>
+    </div>
+    <div class="center" id="rolls"></div>
+    <div class="">
+        <p >The total for the roll is: <p1 id="total"></p1></p>
+    </div>
+</div>
+{% endblock %}
