@@ -2,9 +2,9 @@ FROM python:3.8-slim-buster
 
 WORKDIR /app
 
-COPY DND website/requirements.txt .
+COPY DND_website/requirements.txt .
 
-COPY DND website/ .
+COPY DND_website/ .
 
 RUN pip install -r requirements.txt
 
